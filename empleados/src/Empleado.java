@@ -1,4 +1,4 @@
-import java.time.LocalDate;
+//import java.time.LocalDate;
 public class Empleado {
     String name, puesto; 
     float salario; 
@@ -19,13 +19,13 @@ public class Empleado {
         this.puesto=puesto; 
     }
     //Constructor 3 
-    public Empleado(String name, float salario, String puesto, LocalDate date, int id){
+    /*public Empleado(String name, float salario, String puesto, LocalDate date, int id){
         this.name=name; 
         this.salario=salario; 
         this.puesto=puesto; 
         this.date= date;
         this.id= id; 
-    }
+    }*/
 
 
 }
