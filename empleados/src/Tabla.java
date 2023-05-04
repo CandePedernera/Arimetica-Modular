@@ -13,10 +13,10 @@ public class Tabla {
         T[aModular(per.id)]=per;  
        
      }
-     public void ShowTable() {
+     public void MostrarTabla() {
       for (int i = 0; i < 999; i++) {
         if (T[i] != null) {
-          System.out.println("[" + i + "]: " + T[i].name + " (ID: " + T[i].id + ")");
+          System.out.println("Lugar: " + i + " Nombre: " + T[i].name );
         }
       }
     }
