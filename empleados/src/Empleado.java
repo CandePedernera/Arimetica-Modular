@@ -2,7 +2,7 @@
 public class Empleado {
     String name, puesto; 
     float salario; 
-    LocalDate date; 
+    //LocalDate date; 
     int id;
     int j; 
     // constructor 1
